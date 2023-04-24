@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.container{
+    height: 100vh;
+    background-color: rgb(97, 97, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header{
+    background-color: #fff;
+    padding: 10px;
+    width: 40%;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(25, 25, 155);
+    border-radius: 20px 20px 0px 0px;
+    /* box-shadow: 0px 0px 10px white; */
+    border: 2px solid white;    
+}
+
+.main{
+    background-color: #ddd;
+    width: 40%;
+    height: 30%;
+    padding: 10px;
+    border-radius: 0px 0px 20px 20px;
+    /* box-shadow: 0px 0px 25px white; */
+    border: 2px solid white;
+}
+
+.form-data{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100%;
+}
+
+.inputs{
+    display: flex;
+    margin-top: 30px;
+}
+
+.inputs div{
+    margin: 10px;
+}
+
+label{
+    color: rgb(41, 41, 212);
+}
+
+.inp-field{
+    padding: 10px;
+    border: 1px solid rgb(97, 97, 255);
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.inp-field:hover{
+    box-shadow: 0px 0px 8px rgb(143, 143, 255) ;
+    transition: .5s;
+}
+
+button{
+    margin-top: 20px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(54, 54, 182);
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover{
+    background-color:  rgb(43, 43, 142);
+    transition: .5s;
+}
+
+#result{
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #fff; */
+    color: blue;
+    font-size: 24px;
+}
+
+
+

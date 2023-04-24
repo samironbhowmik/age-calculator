@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Age Calculator</h1>
+        </div>
+        <div class="main">
+            <form class="form-data">
+                <div class="inputs">
+                    <div>
+                        <label for="date">Date</label> <br>
+                        <input type="text" class="inp-field" id="date" placeholder="dd" minlength="1" maxlength="2">
+                    </div>
+                    <div>
+                        <label for="month">Month</label> <br>
+                        <input type="text" class="inp-field" id="month" placeholder="mm" minlength="1" maxlength="2">
+                    </div>
+                    <div>
+                        <label for="year">Year</label> <br>
+                        <input type="text" class="inp-field" id="year" placeholder="yyyy" minlength="4" maxlength="4">
+                    </div>
+                </div>
+                <div>
+                    <button id="submit">Submit</button>
+                </div>
+
+                <div id="result">
+                    <!-- <p>Your current age is 23</p> -->
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="./js/index.js"></script>
+
+</html>
